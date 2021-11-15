@@ -1,10 +1,10 @@
 //
-// Created by Alexander Meshcheryakov on 15.11.2021.
+// Created by Alexander Meshcheryakov on 16.11.2021.
 //
-#include "../haeders.h"
 
+#include "Conditions.h"
 
-void calculate_str() {
+void Conditions::case_1() {
     std::string str;
     std::cin >> str;
     int a;

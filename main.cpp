@@ -1,11 +1,13 @@
 #include <iostream>
 
-#include "haeders.h"
+#include "module 3 - If, switch/Conditions.h"
+#include "module 5 - Array/Array.h"
 
 
 int main(){
-    calculate_str();
-    array_case_1();
-    array_case_2();
+    Conditions().case_1();
+    Array().case_1();
+    Array().case_2();
+
     return EXIT_SUCCESS;
 }
