@@ -10,6 +10,7 @@
 class Conditions {
 public:
     void case_1();
+    void case_2();
 };
 
 

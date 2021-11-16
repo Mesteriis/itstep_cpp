@@ -1,10 +1,10 @@
 //
-// Created by Александр Мещеряков on 03.11.2021.
+// Created by Alexander Meshcheryakov on 16.11.2021.
 //
 
-#include <iostream>
+#include "DataType.h"
 
-int main() {
+void DataType::case_1() {
     bool _bool = true;
 
     char _char = 'a';
@@ -14,7 +14,7 @@ int main() {
     short shot_int = 32767;
     unsigned short u_shot_int = 65535;
     int integer = 32767;
-    long long_integer = 2_147_483_647;
+    long long_integer = 2147483647;
     long long ll_integer = 9223372036854775807;
     unsigned long long ull_integer = 18446744073709551615;
     size_t size_t_int = 0;
@@ -56,12 +56,11 @@ int main() {
               << " value.  OS requires\n";
 
     void *_void;
-    auto _auto;
-    _auto = "auto";
+    auto _auto = "auto";
 
-    int scan;
+    char scan;
     printf("printf");
-    scanf("%d", &scan);
+    scanf("%s", &scan);
 
 
     int value = 5;
@@ -99,5 +98,4 @@ int main() {
             std::cout << std::endl;
         }
     }
-    return 0;
 }
