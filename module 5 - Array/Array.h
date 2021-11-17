@@ -10,6 +10,10 @@ class Array {
 public:
     void case_1();
     void case_2();
+    void case_3();
+    void case_4();
+    void case_5();
+    void case_6();
 };
 
 

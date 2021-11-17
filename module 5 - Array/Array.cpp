@@ -106,4 +106,69 @@ void Array::case_2() {
     }
 }
 
+void Array::case_3() {
+//    Написать, программу, которая вычисляет при- быль фирмы за 6 месяцев. Пользователь вводит прибыль фирмы за каждый месяц.
+    const size_t len = 6;
+    int arr[len];
+    long long int sum = 0;
+    for (size_t i = 0; i < len; i++){
+        std::cout << "Введите сумму за " << i << ": " << std::endl;
+        std::cin >> arr[i];
+        sum+= arr[i];
+    }
+    std::cout << sum << std::endl;
+}
+
+void Array::case_4() {
+    const size_t len = 10;
+    int arr[len] = {0,1,2,3,4,5,6,7,8,9};
+    for (int i = len - 1; i >= 0; i--) {
+        std::cout << arr[i] << ", ";
+    }
+}
+
+void Array::case_5() {
+//    Пользователь вводит длину сторон пятиуголь- ника, каждая сторона заноситься в массив, необходимо вычислить периметр пятиугольника (периметр — сумма всех сторон).
+    const size_t len = 5;
+    long long int arr[len];
+//    for (size_t i = 0; i < len; i++){
+//        std::cin >> arr[i];
+//    }
+    for (auto & i : arr)
+        std::cin >> i;
+//  Цылы на 134 и на 137 одинаковы
+    long long int sum = 0;
+    for (auto i : arr)
+        sum+=i;
+
+    std::cout << sum << std::endl;
+}
+
+void Array::case_6() {
+//    Пользователь вводит прибыль фирмы за год (12 месяцев). Необходимо определить месяц, в котором прибыль была максимальна и месяц, в котором прибыль была минимальна.
+    const size_t len = 12;
+    int arr[len];
+
+    for (auto & i : arr)
+        std::cin >> i;
+    int min_index = 1;
+    int min_value = arr[0];
+    int max_index = 1;
+    int max_value = arr[0];
+    int count = 1;
+    for (auto i : arr){
+        if (i < min_value){
+            min_value = i;
+            min_index = count;
+        }
+        if (i > max_value){
+            max_value = i;
+            max_index = count;
+        }
+        count++;
+    }
+    std::cout << "min_value: " << min_value << " min_index: " << min_index
+    << " max_value: " << max_value << " min_index: " << max_index << std::endl;
+}
+
 #pragma clang diagnostic pop

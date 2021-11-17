@@ -7,14 +7,16 @@
 
 int main(){
     auto *data_type = new DataType;
-    data_type->case_1();
+//    data_type->case_1();
 
     auto * conditions = new Conditions;
-    conditions->case_1();
+//    conditions->case_1();
 
     auto arr = new Array;
-    arr->case_1();
-    arr->case_2();
+//    arr->case_1();
+//    arr->case_2();
+//    arr->case_3();
+    arr->case_6();
 
 
     return EXIT_SUCCESS;
