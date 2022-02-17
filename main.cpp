@@ -1,23 +1,14 @@
 #include <iostream>
-
 #include "module 2 - Data type/DataType.h"
-#include "module 3 - Conditions/Conditions.h"
-#include "module 5 - Array/Array.h"
 
-
-int main(){
-    auto *data_type = new DataType;
-//    data_type->case_1();
-
-    auto * conditions = new Conditions;
-//    conditions->case_1();
-
-    auto arr = new Array;
-//    arr->case_1();
-//    arr->case_2();
-//    arr->case_3();
-    arr->case_6();
-
+int main() {
+//    числа  целые дробные
+//    символы (строки)
+//    логические true/false
+//    object
+    DataType *d = new DataType();
+    d->case_1();
+    std::cout << "Hello Word!" << std::endl;
 
     return EXIT_SUCCESS;
 }

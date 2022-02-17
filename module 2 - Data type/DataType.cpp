@@ -77,8 +77,8 @@ void DataType::case_1() {
     };
     test t;
     auto *ptr_class = new test;
-    std::cout << "size class 3 int: " << sizeof(t) << " byte" <<std::endl;
-    std::cout << "size ptr_class 3 int: " << sizeof(ptr_class) << " byte" <<std::endl;
+    std::cout << "size class 3 int: " << sizeof(t) << " byte" << std::endl;
+    std::cout << "size ptr_class 3 int: " << sizeof(ptr_class) << " byte" << std::endl;
     int a;
     int b;
     std::cin >> a;
@@ -92,9 +92,9 @@ void DataType::case_1() {
     char _c;
     std::cin >> _c;
     std::cout << "_c " << _c;
-    for (int i= 0; i<255; i++){
+    for (int i = 0; i < 255; i++) {
         std::cout << i << " - " << (char) i << " ";
-        if (i%10 == 0){
+        if (i % 10 == 0) {
             std::cout << std::endl;
         }
     }

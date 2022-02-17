@@ -12,7 +12,10 @@ ___
 Implementation of code twisting algorithms, basic concepts, subtleties of using [`if`](https://en.cppreference.com/w/cpp/language/if), [`switch`](https://en.cppreference.com/w/cpp/language/switch) statements
 ___
 ##Module 4 - Cycles
-Implementation of the loop algorithm, basic concepts and features of the [`while`](https://en.cppreference.com/w/cpp/language/while), [`do {...} while`](https://en.cppreference.com/w/cpp/language/do), [`for`](https://en.cppreference.com/w/cpp/language/for)
+Implementation of the loop algorithm, basic concepts and features of the 
+* [`while`](https://en.cppreference.com/w/cpp/language/while)
+* [`do {...} while`](https://en.cppreference.com/w/cpp/language/do)
+* [`for`](https://en.cppreference.com/w/cpp/language/for)
 ___
 ##Module 5 - Array
 The concepts of data [`arrays`](https://en.cppreference.com/w/c/language/array). one-dimensional and multidimensional arrays, peculiarities of work, operations

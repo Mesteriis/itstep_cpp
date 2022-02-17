@@ -1,0 +1,24 @@
+{
+  "name": "Ивановы",
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex M",
+      "password": "991c72d907a0c1e4e4d572e2f8828741",
+      "root": true
+    }
+  ],
+  "wallets": [
+    {
+      "coin": "RUB",
+      "id": 1,
+      "operations": [
+        {
+          "date": 1642010637,
+          "sum": 2.32
+        }
+      ],
+      "user": 1
+    }
+  ]
+}
